@@ -1,0 +1,18 @@
+html{
+    font-family: sans-serif;
+}
+
+main, section {
+    padding: 250px 0;
+    text-align: center;
+}
+
+main h1 {
+    color: #f35626;
+    font-size: 3em;
+}
+
+section h1 {
+    color: #117412;
+    font-size: 3em;
+}

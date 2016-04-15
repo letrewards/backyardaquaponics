@@ -1,0 +1,296 @@
+html,
+body {
+    height: 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: lighter;
+}
+
+.nav-color {
+    width: 100%;
+    background-color: teal;
+    margin-top: 50px;
+    color: mediumaquamarine;
+    letter-spacing: 0.0625em;
+}
+
+.navbar-brand {
+    Margin-top: -50px;
+}
+
+.navbar-header h1 {
+    padding-left: 150px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .navbar-header h1 {
+        padding-left: 175px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1168px) {
+    .navbar-header h1 {
+        padding-left: 175px;
+        font-size: 20px;
+    }
+}
+
+#mynav li a {
+    color: aquamarine;
+    margin-top: 20px;
+}
+
+
+/* unvisited link */
+
+#mynav li a:link {
+    color: aquamarine;
+}
+
+
+/* mouse over link */
+
+#mynav li a:hover {
+    color: white;
+}
+
+
+/* selected link */
+
+#mynav li a:active {
+    color: yellowgreen;
+}
+
+#hero {
+    margin-top: 50px;
+    background: linear-gradient(to bottom, rgba(10, 10, 00, 0.9) 0%, rgba(0, 0, 0, 0.2) 100%), url(/img/Landing-1.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+#hero h2 {
+    color: #fff;
+    font-size: 70px;
+    font-family: Century Gothic;
+    font-weight: 200;
+}
+
+#hero > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#hero q {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: aquamarine;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#hero p {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: aquamarine;
+    font-size: 15px;
+    font-weight: 100px;
+    letter-spacing: 10px;
+}
+
+.button-1 a {
+    color: aquamarine;
+    border-radius: 5px;
+    border: 2px solid aquamarine;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 35px;
+    height: 100px;
+    width: 220px;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+.button-1 a:link {
+    color: mediumaquamarine;
+}
+
+
+/* visited link */
+
+.button-1 a:visited {
+    color: mediumaquamarine;
+}
+
+
+/* mouse over link */
+
+.button-1 a:hover {
+    color: white;
+}
+
+#about {
+    width: 100%;
+    background-size: cover;
+    padding: 50px;
+}
+
+.about-cont {
+    /* background-color: coral;*/
+    padding-top: 50px;
+}
+
+#about img {
+    width: 100%;
+    margin-right: 30px;
+}
+
+#about h2 {
+    color: darkslategray;
+    font-size: 40px;
+    font-family: Century Gothic;
+    font-weight: 200;
+    text-align: center;
+}
+
+.aqua_text {
+    color: mediumaquamarine;
+}
+
+#about p {
+    color: darkslategray;
+    font-size: 18px;
+    font-family: Century Gothic;
+    font-weight: 200;
+}
+
+#selection {
+    width: 95%;
+    text-align: left;
+    background-color: mediumaquamarine;
+    padding: 20px;
+}
+
+@media only screen (max-width: 480px) {
+    #selection {
+        width: 80%;
+    }
+}
+
+.systems-box {
+    width: 90%;
+}
+
+#selection h4 {
+    font-family: Century Gothic;
+    color: rgb(31, 70, 105);
+    font-weight: 800;
+    Text-align: center;
+    font-size: 20px;
+}
+
+#selection img {
+    width: 100%;
+}
+
+#selection p {
+    font-size: 17px;
+}
+
+#fishplant {
+    padding: 20px;
+    background-image: url(../img/aquaponics_mid-hero-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+#fishplant img {
+    width: 100%;
+    border: 4px solid teal;
+}
+
+#fishplant h3 {
+    text-align: center;
+}
+
+#fishplant p {
+    font-size: 17px;
+}
+
+.duel_box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#mid-hero {
+    /* http://placehold.it/300x300*/
+    background: linear-gradient(to bottom, rgba(00, 10, 10, 1.3) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/clip_image0044.jpg) no-repeat;
+    padding: 150px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#mid-hero h3 {
+    color: #fff;
+    font-size: 70px;
+    font-family: Century Gothic;
+    font-weight: 100;
+}
+
+.double-button {
+    padding: 50px;
+}
+
+#mid-hero p {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100px;
+    letter-spacing: 10px;
+}
+
+
+/* selected link */
+
+.button-1 a:active {
+    color: yellow;
+}
+
+
+/*Phone*/
+
+@media (max-width:768px) {
+    #hero h1 {
+        font-size: 4em:
+    }
+}
+
+
+/*Tablet*/
+
+@media (min-width:769px) and ( max-width: 992px) {
+    #hero h1 {
+        font-size: 4.5em:
+    }
+}

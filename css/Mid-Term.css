@@ -1,0 +1,402 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.aqua_text {
+    color: mediumaquamarine;
+}
+
+.blue_text {
+    color: navy;
+}
+
+
+/*  clear-fix keeps that block from colapsing, after the section*/
+
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear: both;
+    text-decoration: none;
+}
+
+header .logo {
+    float: left;
+    height: 50px;
+}
+
+header h1 {
+    /*  2em = 2 times the original 16px*/
+    font-size: 3em;
+    /*  unless you asign a width (or better to float it left), the h1 takes up 100%, thus won't allow the nav to float next to it*/
+    float: left;
+    color: mediumaquamarine;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-left: 12px;
+}
+
+header nav {
+    float: right;
+    padding-top: 40px;
+}
+
+header nav a {
+    margin-left: 50px;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+header nav a:link {
+    color: darkslategray;
+}
+
+/* mouse over link */
+
+header nav a:hover {
+    color: mediumaquamarine;
+}
+
+/* selected link */
+
+header nav a:active {
+    color: deepskyblue;
+}
+
+.button-1 a {
+    color: white;
+    border-radius: 5px;
+    border: 2px solid mediumaquamarine;
+    background-color: none;
+    font-size: 35px;
+    height: 100px;
+    width: 220px;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+.button-1 a:link {
+    color: mediumaquamarine;
+}
+
+
+/* visited link */
+
+.button-1 a:visited {
+    color: mediumaquamarine;
+}
+
+
+/* mouse over link */
+
+.button-1 a:hover {
+    color: white;
+}
+
+
+/* selected link */
+
+.button-1 a:active {
+    color: yellow;
+}
+
+<section id="home">...</section> header a {
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+
+/*since only once, use ID*/
+
+#landing {
+    /* http://placehold.it/300x300*/
+    /*background-image: url(../images/wine-bg.jpg);
+    padding: 250px 200px;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background: linear-gradient(to bottom, rgba(10, 10, 00, 0.9) 0%, rgba(0, 0, 0, 0.2) 100%), url(../images/Landing-1.jpg) no-repeat;
+    padding: 225px 200px;
+    background-size: cover;
+    text-align: center;
+    color: darkseagreen;
+    height 200px;
+    margin-bottom: 20px:
+}
+
+#landing div {
+    margin-top: none;
+}
+
+#landing h2 {
+    color: #fff;
+    font-size: 70px;
+    font-family: Century Gothic;
+    font-weight: 200;
+}
+
+#landing q {
+    font-style: italic;
+}
+
+.script-font {
+    font-family: 'Century Gothic', Sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.est-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 380px;
+    background-size: cover;
+}
+
+.est-container h5 {
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.est-box-rt {
+    width: 60%;
+    height: auto;
+    Float: right;
+    padding-top: 30px;
+}
+
+p .est-box-rt {
+    text-align: left;
+}
+
+p .est-box-rt {
+    text-align: left;
+    font-size: 25px;
+}
+
+.est-box-lt {
+    width: 500px;
+    height: 375px;
+    Float: left;
+    background-color: grey;
+}
+
+.est-container img {
+    width: 100%;
+    height: auto;
+}
+
+#selection {
+    Margin-top: 0;
+    background-color: aquamarine;
+    height: 550px;
+}
+
+#selection div {
+    margin-top: 0;
+    float: left;
+    background-color: aquamarine;
+    padding-top: 50px;
+}
+
+#selection h4 {
+    font-size: 20px;
+}
+
+#selection p {
+    color: Grey;
+}
+
+#selection a {
+    padding: 10px;
+    width: 200px;
+    height: 75px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.system {
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.system img {
+    width: 75%;
+}
+
+.system h4 {
+    font-size: 23px;
+}
+
+.system p {
+    width: 75%;
+    text-align: left;
+    padding-left: 45px;
+}
+
+.fishplant-cont {
+    margin-top: 25px;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#fishplant-cont h3 {
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.fishplant-cont img {
+    width: 70%;
+}
+
+.fishplant-cont p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#mid-hero {
+    /* http://placehold.it/300x300*/
+    background: linear-gradient(to bottom, rgba(10, 10, 00, 1.3) 0%, rgba(0, 0, 0, 0.5) 100%), url(../images/Landing-4.jpg) no-repeat;
+    padding: 150px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#mid-hero h2 {
+    color: #fff;
+    font-size: 70px;
+    font-family: Century Gothic;
+    font-weight: 200;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#mid-hero h3 {
+    font-size: 20px;
+    font-weight: 100;
+    color: mediumaquamarine;
+    letter-spacing: 6px;
+}
+
+#mid-hero p {
+    font-size: 15px;
+    font-style: italic;
+    color: #fff;
+}
+
+.button-L a {
+    color: white;
+    border-radius: 5px;
+    border: 2px solid mediumaquamarine;
+    background-color: none;
+    font-size: 35px;
+    height: 50px;
+    width: 220px;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    margin-left: 200px;
+    padding-top;
+    20px;
+    margin-top: 20px;
+}
+
+.button-R a {
+    color: white;
+    border-radius: 5px;
+    border: 2px solid mediumaquamarine;
+    background-color: none;
+    font-size: 35px;
+    height: 50px;
+    width: 220px;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    margin-right: 200px;
+    padding-top;
+    20px;
+    margin-top: 5px;
+}
+
+
+/* unvisited link */
+
+.button-L a:link {
+    color: mediumaquamarine;
+}
+
+
+/* visited link */
+
+.button-L a:visited {
+    color: mediumaquamarine;
+}
+
+
+/* mouse over link */
+
+.button-L a:hover {
+    color: white;
+}
+
+
+/* selected link */
+
+.button-L a:active {
+    color: deepskyblue;
+}
+
+
+/* unvisited link */
+
+.button-R a:link {
+    color: mediumaquamarine;
+}
+
+
+/* visited link */
+
+.button-R a:visited {
+    color: mediumaquamarine;
+}
+
+
+/* mouse over link */
+
+.button-R a:hover {
+    color: white;
+}
+
+
+/* selected link */
+
+.button-R a:active {
+    color: deepskyblue;
+}
+
+<section id="home">...</section> header a {
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+}
